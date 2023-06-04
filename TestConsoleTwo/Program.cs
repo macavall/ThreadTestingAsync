@@ -11,7 +11,7 @@ class Program
     // Declare the event
     public static event MyEventHandler MyEvent;
 
-    static async Task Main()
+    static async Task Main() // Test
     {
         var taskList = new List<Task>();
         // Subscribe to the event
